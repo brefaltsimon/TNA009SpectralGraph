@@ -1,5 +1,5 @@
 function [Fiedler] = GetFiedler(Ln)
-[V,~] = eig(Ln);
+[V,E] = eig(Ln);
 Fiedler = V(:,2);
 end
 
